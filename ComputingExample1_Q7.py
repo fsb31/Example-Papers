@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 #friction
 def F(x_dot):
-    f = 0.025
+    f = 0.025 #'damping' force
     if (x_dot < 0): return f
     if (x_dot > 0): return -f
     return 0
